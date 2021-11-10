@@ -2,20 +2,20 @@ import java.lang.String;
 
 public class Name {
     private String name;
-    private boolean sex; // false es femenino y true masculino.
-    private int[] popularityByDecade;
+    private boolean sex;     /* false es femenino y true masculino.*/
+    private Integer[] popularityByDecade;
 
-    Name(String name, boolean sex, int[] popularity) {
+    Name(String name, boolean sex, Integer[] popularity) {
         this.name = name;
         this.sex = sex;
         this.popularityByDecade = popularity;
     }
 
-    public int[] getPopularityByDecade() {
+    public Integer[] getPopularityByDecade() {
         return popularityByDecade;
     }
 
-    public boolean isSex() {
+    public boolean getSex() {
         return sex;
     }
 
